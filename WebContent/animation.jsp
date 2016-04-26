@@ -54,6 +54,7 @@ div {
   width: 8em;
   height: 2em;
   background: #fdfdfd;
+  vertical-align: top;
   }
 .f-out{/* 
   position: relative;
@@ -87,6 +88,7 @@ div {
   width: 3em;
   height: 2em;
   background: #fdfdfd;
+  vertical-align: top;
   }
 
 .counter{
@@ -96,6 +98,7 @@ div {
 	  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	  color: #ffffff;
 	  font-weight: bold;
+	  vertical-align: top;
 }
 .asso{/* 
   position: relative;
@@ -133,6 +136,7 @@ div {
 html,
 body {
   height: 100%;
+  
 
 }
   </style>
@@ -187,7 +191,7 @@ body {
 	    		<div>
 	    			<div class="asso" style="color:grey">Associative Array</div>
 		    		<%for(int j=0;j<=k-2;j++){ 
-	    				if(j==5)
+	    				if(j%6==0)
 	    				{
 	    					%><br/><br/><%
 	    				}
@@ -198,7 +202,7 @@ body {
 				<div>
 					<div class="counter" style="color:grey">Counter</div>
 					<%for(int h=0;h<=k-2;h++){ 
-						if(h==5)
+						if(h%6==0)
 					    	{
 					    		%><br/><br/><%
 					    	}

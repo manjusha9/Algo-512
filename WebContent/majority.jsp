@@ -49,13 +49,13 @@ div {
   background: #fdfdfd;
   }
 .loader-block {
-  /* position: relative;
-  top: 125px;
-  left: 80px; */
+  top: 480px;
+  left: 600px;
   display: inline-block;
-  width: 8em;
-  height: 2em;
+  width: 150px;
+  height: 30px;
   background: #fdfdfd;
+  vertical-align: top;
   }
 .f-out{/* 
   position: relative;
@@ -81,14 +81,14 @@ div {
   top: 300px;
   left: 10px; */
 }
-.loader-block1 {/* 
-  position: relative;
-  top: 125px;
-  left: 160px; */
+.loader-block1 { 
+  top: 580px;
+  left: 600px; 
   display: inline-block;
-  width: 3em;
-  height: 2em;
+  width: 150px;
+  height: 30px;
   background: #fdfdfd;
+  vertical-align: top;
   }
 
 .counter{
