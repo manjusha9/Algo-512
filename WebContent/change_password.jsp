@@ -5,10 +5,10 @@
     <title>Change Password</title>
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
     
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style_3.css">
 
     
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style_1.css">
 
     
     
@@ -72,7 +72,7 @@
     	document.getElementById("current").disabled=true;
     	document.getElementById("pwd").disabled=true;
     	document.getElementById("cpwd").disabled=true;
-    	document.getElementById("myform").action="learner_home.jsp";
+    	document.getElementById("myform").action="operation.jsp";
     	document.getElementById("mybutton").innerHTML="Back";
     	</script>
     	

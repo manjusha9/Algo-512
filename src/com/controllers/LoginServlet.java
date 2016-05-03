@@ -51,7 +51,7 @@ public class LoginServlet extends HttpServlet {
 		{System.out.println("hello");
 		
 			HttpSession session = request.getSession();
-			RequestDispatcher rd= request.getRequestDispatcher("learner_home.jsp");
+			RequestDispatcher rd= request.getRequestDispatcher("operation.jsp");
 			session.setAttribute("user", user);
 		
 			rd.forward(request, response);
